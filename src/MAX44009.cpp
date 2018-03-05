@@ -13,6 +13,16 @@ MAX44009::MAX44009()
   Wire.endTransmission();  
 }
 
+
+MAX44009::MAX44009(int sda, int scl)
+{
+  Wire.begin(sda, scl);
+  Wire.beginTransmission(ADDRESS);
+  Wire.write(0x02);
+  Wire.write(0x40);
+  Wire.endTransmission();  
+}
+
 float MAX44009::lux() const
 {
   unsigned int data[2];
