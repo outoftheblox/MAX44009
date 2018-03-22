@@ -1,6 +1,8 @@
 #include "MAX44009.h"
 
-MAX44009 sensor;
+using namespace ootb;
+
+MAX44009 sensor(0,2);
 
 void setup() 
 {
