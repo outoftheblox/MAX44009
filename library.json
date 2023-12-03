@@ -1,0 +1,20 @@
+{
+    "name": "MAX44009",
+    "keywords": "sensors",
+    "description": "MAX44009 sensor driver",
+    "homepage": "https://github.com/outoftheblox/MAX44009",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/outoftheblox/MAX44009.git"
+    },
+    "version": "1.0.0",
+    "authors": {
+      "name": "Gerben van Eerten",
+      "url": "https://gerbenvaneerten.nl"
+    },
+    "exclude": [
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
+  

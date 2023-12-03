@@ -6,7 +6,7 @@ MAX44009 sensor(0,2);
 
 void setup() 
 {
-  Serial.begin(230400);
+  Serial.begin(MONITOR_SPEED);
   Serial.println();
 }
 
